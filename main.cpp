@@ -41,7 +41,7 @@ int main()
   << std::setw(10) << "Total" << std::endl;
 
   //Print the bottom row and total trip cost
-  std::cout << std::setw(0) << location
+  std::cout << std::setw(0) << location.substr(0,20)
   << std::setw(8) << days
   << std::setw(6) << std::setprecision(2) << std::fixed << '$' << hotel
   << std::setw(4) << std::setprecision(2) << std::fixed << '$' << meal
